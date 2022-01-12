@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(242.67deg, #840C5B 10.96%, #7655D1 58.24%, rgba(79, 36, 201, 0.875) 99.96%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 330px;
+    height: 80px;
+    border: 2px solid rgba(255, 255, 255, 0.45);
+    background: linear-gradient(86.83deg, rgba(132, 12, 91, 0.45) 23.09%, rgba(118, 85, 209, 0.45) 59.56%, rgba(79, 36, 201, 0.45) 99.21%);
+    mix-blend-mode: normal;
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255, 255, 255, 0.45);
+    font-size: 36px;
+    font-weight: bold;
+    transition: all 0.75s ease-in;
+
+}
+
+.botao:hover {
+    background: linear-gradient(86.83deg, #840C5B 23.09%, #7655D1 59.56%, #4F24C9 99.21%);
+    box-shadow: 3px 6px 6px rgba(255, 255, 255, 0.42);
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
